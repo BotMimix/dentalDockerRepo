@@ -46,7 +46,7 @@ app.use(session({
 // Setting up our middleware to accept the JSON body we send in the request
 app.use(express.json());
 app.get('/api/v1', (req, res) => {
-  res.send('<h2>SWAG</h2>')
+  res.send('<h2>SWAG!!!!</h2>')
   console.log('yeah it ran');
 });
 // if there's a request sent from localhost:3000/patients, it will be sent to our patientRouter
